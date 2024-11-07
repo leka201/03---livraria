@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Fantasy - Cadastro</title>
+</head>
+<body>
+    <h1> Livraria Fantasy</h1>
+    <a href="./03 - livraria inicio.html"> Inicio</a> 
+    <br/>
+    <a href="./03 - livraria login.html"> Entrar/<a href="./03 - livraria cadastro.html">Cadastrar</a>
+    <br/>
+    <a href="./03 - livraria contato.html">Contato</a>
+    <hr/>  
+    <h2>Cadastre-se</h2>
+    <p>Crie uma conta apar poder comprar nossos livros e aproveitar nossas promoções!</p>
+    <p>Você já tem uma conta? Acesse o seu painel de usuário, <a href="./03 - livraria login.html"> clique aqui </a></p> 
+    <p><strong>Informações pessoais</strong></p>
+    <form action="./03 - cadastro sucesso.html">
+      <label><input placeholder="Digite seu nome" required/></p>
+      <p>Data de nascimento: <input type="date" required/></p>
+      <p>Endereço:
+        <br/> 
+     <label> <input placeholder="Rua" required/> </label>  <label> <input type="number" placeholder="Número"required/> </label> <label> <input placeholder="Bairro"required/> </label>
+    <p><strong>Você está se cadastrando para: </strong></p>
+    <input type="radio" name="objetivo" />Comprar livros
+    <br/>
+    <input type="radio" name="objetivo" />Vender meus livros
+    <br/>
+    <input type="radio" name="objetivo" />Trocar livros
+
+    <p><strong>Dados de login</strong></p>
+    <label><input placeholder="Digite seu email"type="email" required/></label>
+      </br>
+      <br/>
+    <label><input placeholder="Digite sua senha"type="password" minlength="10" required/></label>
+        <p><input type="checkbox" />Quero receber promoções no meu email</p>
+        <a href="./03 - cadastro sucesso.html">
+          <button>Salvar e continuar</button>
+        </a>
+        </form>
+        
+</body>
+</html>
